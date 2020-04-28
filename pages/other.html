@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kontrolinukas opa judam</title>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+</head>
+<body>
+
+<header>
+	<h1>HEADER</h1>
+<nav>
+	<ul >
+		<li class="list"><button ><a href="index.html">home</a></button></li>
+		<li class="list"><button ><a href="other.html">other</a></button></li>
+	</ul>
+</nav>	
+</header>
+<main>
+<script>
+	function go() {
+    var str = document.getElementById("gogo").value;
+    if (str.endsWith("as")  str.endsWith("is")  str.endsWith("ys") || str.endsWith("ias")){
+        document.getElementById("gogo").value = "true";
+    } else {
+        document.getElementById("gogo").value = "false";
+    }
+}
+</script>
+	<form>
+	  <label for="word">Patikrinkite ar JŪSŲ sugalvotas žodis yra DAIKTAVARDIS!!!!</label><br>
+	  <input type="text" id="gogo" name="word"><br>
+	  <input type="submit" value="Patikrinkite" onclick="go()">
+  	</form>
+	
+</main>
+
+<footer>
+	<ul >
+		<li class="list"><button ><a href="index.html">home</a></button></li>
+		<li class="list"><button ><a href="other.html">other</a></button></li>
+	</ul>
+</footer>
+
+</body>
+</html>

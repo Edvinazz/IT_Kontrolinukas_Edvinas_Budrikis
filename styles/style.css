@@ -1,0 +1,40 @@
+html, body{
+	margin:0;
+	padding:0;
+}
+header {
+	background-color: #8AA21D;
+	color:#D26168;
+}
+nav{
+	background-color: #50CB89;
+	text-decoration: none;
+	color: #6F3C64;
+}
+
+.list{
+	display: inline;
+	color: #6F3C64;
+}
+.list button a {
+	text-decoration: none;
+	color: #6F3C64;
+}
+
+main{
+	background-color: #A79C96;
+	color:#50A6D3;
+}
+
+main article, form{
+	margin-left:40px;
+}
+footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	background-color: #1F3AF1;
+	color: #D4640A;
+	text-align: right;
+	padding-right: 80px;
+}
